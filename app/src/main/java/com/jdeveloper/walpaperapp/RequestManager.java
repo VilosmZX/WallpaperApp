@@ -78,7 +78,7 @@ public class RequestManager {
     private interface CallWallpaperList {
         @Headers({
                 "Accept: application/json",
-                "Authorization: 563492ad6f91700001000001e38120b846424d8aa7493d15150b3b7d"
+                "Authorization: api key"
         })
 
         @GET("curated/")
@@ -91,7 +91,7 @@ public class RequestManager {
     private interface CallWallpaperListSearch {
         @Headers({
                 "Accept: application/json",
-                "Authorization: 563492ad6f91700001000001e38120b846424d8aa7493d15150b3b7d"
+                "Authorization: api key"
         })
 
         @GET("search")
